@@ -1,0 +1,38 @@
+name: Controllo News Calciomercato
+
+on:
+  schedule:
+    # Ogni 30 minuti (orario UTC). Puoi cambiare la frequenza modificando questa riga.
+    - cron: "*/30 * * * *"
+  workflow_dispatch: {} # permette anche di avviarlo manualmente da GitHub
+
+jobs:
+  check-news:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write  # serve per poter salvare seen.json nel repo
+    steps:
+      - name: Checkout del repository
+        uses: actions/checkout@v4
+
+      - name: Imposta Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Installa dipendenze
+        run: pip install feedparser requests
+
+      - name: Esegui controllo news
+        env:
+          TELEGRAM_TOKEN: ${{ secrets.TELEGRAM_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+        run: python scripts/check_news.py
+
+      - name: Salva lo stato (seen.json) nel repository
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action Bot"
+          git add seen.json
+          git diff --staged --quiet || git commit -m "Aggiorna elenco notizie viste [skip ci]"
+          git push
