@@ -1,0 +1,2775 @@
+{
+  "categories": {
+    "teams": [
+      "Arsenal",
+      "Manchester City",
+      "Liverpool",
+      "Chelsea",
+      "Manchester United",
+      "Tottenham",
+      "Monaco",
+      "Olympique Marsiglia",
+      "PSG",
+      "Real Madrid",
+      "Barcelona",
+      "Atletico Madrid",
+      "Juventus",
+      "Inter",
+      "Milan",
+      "Lazio",
+      "Roma",
+      "Napoli",
+      "Sporting Lisbona",
+      "Benfica",
+      "Porto",
+      "Galatasaray",
+      "Boca Juniors",
+      "River Plate",
+      "PSV",
+      "Ajax"
+    ],
+    "nations": [
+      "Uruguay",
+      "Asia o Oceania",
+      "USA",
+      "Polonia",
+      "Marocco",
+      "Sud America",
+      "Svezia",
+      "Olanda",
+      "Brasile",
+      "Croazia",
+      "Serbia",
+      "Repubblica Ceca",
+      "Colombia",
+      "Norvegia",
+      "Senegal",
+      "Belgio",
+      "Portogallo",
+      "Nord/Centro America O Caraibi",
+      "Germania",
+      "Cile",
+      "Italia",
+      "Francia",
+      "Cameron",
+      "Svizzera",
+      "Africa",
+      "Danimarca",
+      "Argentina",
+      "Spagna",
+      "Costa d’Avorio",
+      "Ucraina",
+      "Turchia",
+      "Inghilterra",
+      "Nigeria",
+      "Ghana"
+    ],
+    "trophies": [
+      "Premier League winner",
+      "Ballon d’or",
+      "Copa America winner",
+      "LaLiga golden boot",
+      "Uefa Cup/Europa League winner",
+      "World Cup golden boot",
+      "UCL winner",
+      "Premier League golden boot",
+      "World Cup winner",
+      "LaLiga winner",
+      "Serie A winner",
+      "UCL golden boot",
+      "Serie A golden boot",
+      "Euros winner"
+    ],
+    "managers": [
+      "Managed by Mourinho",
+      "Managed by Ferguson",
+      "Managed by Benitez",
+      "Managed by Van Gaal",
+      "Managed by Guardiola",
+      "Managed by Ancelotti",
+      "Managed by Wenger"
+    ],
+    "teammates": [
+      "Played with Buffon",
+      "Played with Lukaku",
+      "Played with Ronaldo Nazario",
+      "Played with Zidane",
+      "Played with Robben",
+      "Played with Di Maria",
+      "Played with Beckham",
+      "Played with Cristiano Ronaldo",
+      "Played with Ibrahimovic",
+      "Played with Messi"
+    ],
+    "leagues": [
+      "USA League",
+      "Argentine League",
+      "Portugal League",
+      "Belgian League",
+      "Greek or Cypriot League",
+      "Saudi League",
+      "Scottish League",
+      "Chinese League",
+      "Turkish League",
+      "German League",
+      "Dutch League",
+      "Brazil League"
+    ]
+  },
+  "players": [
+    {
+      "name": "Lionel Messi",
+      "attributes": [
+        "PSG",
+        "Barcelona",
+        "Sud America",
+        "Argentina",
+        "Ballon d’or",
+        "Copa America winner",
+        "LaLiga golden boot",
+        "UCL winner",
+        "World Cup winner",
+        "LaLiga winner",
+        "UCL golden boot",
+        "Managed by Guardiola",
+        "Played with Di Maria",
+        "Played with Ibrahimovic",
+        "USA League"
+      ]
+    },
+    {
+      "name": "Cristiano Ronaldo",
+      "attributes": [
+        "Manchester United",
+        "Real Madrid",
+        "Juventus",
+        "Sporting Lisbona",
+        "Portogallo",
+        "Premier League winner",
+        "Ballon d’or",
+        "LaLiga golden boot",
+        "UCL winner",
+        "Premier League golden boot",
+        "LaLiga winner",
+        "Serie A winner",
+        "UCL golden boot",
+        "Serie A golden boot",
+        "Euros winner",
+        "Managed by Mourinho",
+        "Managed by Ferguson",
+        "Managed by Benitez",
+        "Managed by Ancelotti",
+        "Played with Buffon",
+        "Played with Di Maria",
+        "Saudi League"
+      ]
+    },
+    {
+      "name": "Zlatan Ibrahimovic",
+      "attributes": [
+        "Manchester United",
+        "PSG",
+        "Barcelona",
+        "Juventus",
+        "Inter",
+        "Milan",
+        "Ajax",
+        "Svezia",
+        "Uefa Cup/Europa League winner",
+        "LaLiga winner",
+        "Serie A winner",
+        "Serie A golden boot",
+        "Managed by Mourinho",
+        "Managed by Guardiola",
+        "Managed by Ancelotti",
+        "Played with Buffon",
+        "Played with Lukaku",
+        "Played with Di Maria",
+        "Played with Beckham",
+        "Played with Messi",
+        "USA League",
+        "Dutch League"
+      ]
+    },
+    {
+      "name": "Angel Di Maria",
+      "attributes": [
+        "Manchester United",
+        "PSG",
+        "Real Madrid",
+        "Juventus",
+        "Benfica",
+        "Sud America",
+        "Argentina",
+        "Copa America winner",
+        "UCL winner",
+        "World Cup winner",
+        "LaLiga winner",
+        "Managed by Mourinho",
+        "Managed by Van Gaal",
+        "Managed by Ancelotti",
+        "Played with Buffon",
+        "Played with Cristiano Ronaldo",
+        "Played with Ibrahimovic",
+        "Played with Messi",
+        "Argentine League",
+        "Portugal League"
+      ]
+    },
+    {
+      "name": "Gianluigi Buffon",
+      "attributes": [
+        "PSG",
+        "Juventus",
+        "Italia",
+        "Uefa Cup/Europa League winner",
+        "World Cup winner",
+        "Serie A winner",
+        "Managed by Ancelotti",
+        "Played with Di Maria",
+        "Played with Cristiano Ronaldo",
+        "Played with Ibrahimovic"
+      ]
+    },
+    {
+      "name": "Erling Haaland",
+      "attributes": [
+        "Manchester City",
+        "Norvegia",
+        "Premier League winner",
+        "UCL winner",
+        "Premier League golden boot",
+        "UCL golden boot",
+        "Managed by Guardiola",
+        "German League"
+      ]
+    },
+    {
+      "name": "Kylian Mbappé",
+      "attributes": [
+        "Monaco",
+        "PSG",
+        "Real Madrid",
+        "Francia",
+        "LaLiga golden boot",
+        "World Cup golden boot",
+        "World Cup winner",
+        "UCL golden boot",
+        "Managed by Ancelotti",
+        "Played with Buffon",
+        "Played with Di Maria",
+        "Played with Messi"
+      ]
+    },
+    {
+      "name": "Vitinha",
+      "attributes": [
+        "PSG",
+        "Porto",
+        "Portogallo",
+        "UCL winner",
+        "Played with Cristiano Ronaldo",
+        "Played with Messi",
+        "Portugal League"
+      ]
+    },
+    {
+      "name": "Pedri",
+      "attributes": [
+        "Barcelona",
+        "Spagna",
+        "LaLiga winner",
+        "Euros winner",
+        "Played with Messi"
+      ]
+    },
+    {
+      "name": "Ousmane Dembélé",
+      "attributes": [
+        "PSG",
+        "Barcelona",
+        "Francia",
+        "Ballon d’or",
+        "UCL winner",
+        "World Cup winner",
+        "LaLiga winner",
+        "Played with Messi",
+        "German League"
+      ]
+    },
+    {
+      "name": "Harry Kane",
+      "attributes": [
+        "Tottenham",
+        "Inghilterra",
+        "World Cup golden boot",
+        "Premier League golden boot",
+        "UCL golden boot",
+        "Managed by Mourinho",
+        "German League"
+      ]
+    },
+    {
+      "name": "Thibaut Courtois",
+      "attributes": [
+        "Chelsea",
+        "Real Madrid",
+        "Atletico Madrid",
+        "Belgio",
+        "Premier League winner",
+        "Uefa Cup/Europa League winner",
+        "UCL winner",
+        "LaLiga winner",
+        "Managed by Mourinho",
+        "Managed by Ancelotti",
+        "Played with Lukaku",
+        "Belgian League"
+      ]
+    },
+    {
+      "name": "Lamine Yamal",
+      "attributes": [
+        "Barcelona",
+        "Spagna",
+        "LaLiga winner",
+        "Euros winner"
+      ]
+    },
+    {
+      "name": "Jude Bellingham",
+      "attributes": [
+        "Real Madrid",
+        "Inghilterra",
+        "UCL winner",
+        "LaLiga winner",
+        "Managed by Ancelotti",
+        "German League"
+      ]
+    },
+    {
+      "name": "Mido",
+      "attributes": [
+        "Tottenham",
+        "Olympique Marsiglia",
+        "Roma",
+        "Ajax",
+        "Africa",
+        "Played with Ibrahimovic",
+        "Dutch League"
+      ]
+    },
+    {
+      "name": "Arkadiusz Milik",
+      "attributes": [
+        "Olympique Marsiglia",
+        "Juventus",
+        "Napoli",
+        "Ajax",
+        "Polonia",
+        "Managed by Ancelotti",
+        "Played with Di Maria",
+        "German League",
+        "Dutch League"
+      ]
+    },
+    {
+      "name": "Robert Lewandowski",
+      "attributes": [
+        "Barcelona",
+        "Polonia",
+        "LaLiga golden boot",
+        "UCL winner",
+        "LaLiga winner",
+        "UCL golden boot",
+        "Managed by Guardiola",
+        "Managed by Ancelotti",
+        "Played with Robben",
+        "USA League",
+        "German League"
+      ]
+    },
+    {
+      "name": "Wojciech Szczęsny",
+      "attributes": [
+        "Arsenal",
+        "Barcelona",
+        "Juventus",
+        "Roma",
+        "Polonia",
+        "LaLiga winner",
+        "Managed by Wenger",
+        "Played with Buffon",
+        "Played with Cristiano Ronaldo"
+      ]
+    },
+    {
+      "name": "Artem Dovbyk",
+      "attributes": [
+        "Roma",
+        "Ucraina",
+        "LaLiga golden boot"
+      ]
+    },
+    {
+      "name": "Thomas Partey",
+      "attributes": [
+        "Arsenal",
+        "Atletico Madrid",
+        "Africa",
+        "Ghana",
+        "Uefa Cup/Europa League winner",
+        "LaLiga winner"
+      ]
+    },
+    {
+      "name": "Alexis Sánchez",
+      "attributes": [
+        "Arsenal",
+        "Manchester United",
+        "Olympique Marsiglia",
+        "Barcelona",
+        "Inter",
+        "River Plate",
+        "Sud America",
+        "Cile",
+        "Copa America winner",
+        "LaLiga winner",
+        "Serie A winner",
+        "Managed by Mourinho",
+        "Managed by Guardiola",
+        "Managed by Wenger",
+        "Played with Lukaku",
+        "Played with Messi",
+        "Argentine League"
+      ]
+    },
+    {
+      "name": "Thierry Henry",
+      "attributes": [
+        "Arsenal",
+        "Monaco",
+        "Barcelona",
+        "Juventus",
+        "Francia",
+        "Premier League winner",
+        "UCL winner",
+        "Premier League golden boot",
+        "World Cup winner",
+        "LaLiga winner",
+        "Euros winner",
+        "Managed by Guardiola",
+        "Managed by Ancelotti",
+        "Managed by Wenger",
+        "Played with Zidane",
+        "Played with Ibrahimovic",
+        "Played with Messi",
+        "USA League"
+      ]
+    },
+    {
+      "name": "Ruud van Nistelrooy",
+      "attributes": [
+        "Manchester United",
+        "Real Madrid",
+        "PSV",
+        "Olanda",
+        "Premier League winner",
+        "LaLiga golden boot",
+        "Premier League golden boot",
+        "LaLiga winner",
+        "UCL golden boot",
+        "Managed by Ferguson",
+        "Managed by Van Gaal",
+        "Played with Ronaldo Nazario",
+        "Played with Robben",
+        "Played with Beckham",
+        "Played with Cristiano Ronaldo",
+        "German League",
+        "Dutch League"
+      ]
+    },
+    {
+      "name": "Sergiño Dest",
+      "attributes": [
+        "Barcelona",
+        "Milan",
+        "PSV",
+        "Ajax",
+        "USA",
+        "Nord/Centro America O Caraibi",
+        "Played with Ibrahimovic",
+        "Played with Messi",
+        "Dutch League"
+      ]
+    },
+    {
+      "name": "James Rodríguez",
+      "attributes": [
+        "Monaco",
+        "Real Madrid",
+        "Porto",
+        "Sud America",
+        "Colombia",
+        "Uefa Cup/Europa League winner",
+        "World Cup golden boot",
+        "UCL winner",
+        "LaLiga winner",
+        "Managed by Benitez",
+        "Managed by Ancelotti",
+        "Played with Robben",
+        "Played with Di Maria",
+        "Played with Cristiano Ronaldo",
+        "USA League",
+        "Argentine League",
+        "Portugal League",
+        "Greek or Cypriot League",
+        "German League",
+        "Brazil League"
+      ]
+    },
+    {
+      "name": "Paolo Rossi",
+      "attributes": [
+        "Juventus",
+        "Milan",
+        "Italia",
+        "Ballon d’or",
+        "World Cup golden boot",
+        "UCL winner",
+        "World Cup winner",
+        "Serie A winner",
+        "Serie A golden boot"
+      ]
+    },
+    {
+      "name": "Lorik Cana",
+      "attributes": [
+        "Olympique Marsiglia",
+        "PSG",
+        "Lazio",
+        "Galatasaray",
+        "Turkish League"
+      ]
+    },
+    {
+      "name": "Thomas Vermaelen",
+      "attributes": [
+        "Arsenal",
+        "Barcelona",
+        "Roma",
+        "Ajax",
+        "Belgio",
+        "UCL winner",
+        "LaLiga winner",
+        "Managed by Wenger",
+        "Played with Lukaku",
+        "Played with Ibrahimovic",
+        "Played with Messi",
+        "Dutch League"
+      ]
+    },
+    {
+      "name": "Mario Balotelli",
+      "attributes": [
+        "Manchester City",
+        "Liverpool",
+        "Olympique Marsiglia",
+        "Inter",
+        "Milan",
+        "Italia",
+        "Premier League winner",
+        "UCL winner",
+        "Serie A winner",
+        "Managed by Mourinho",
+        "Played with Buffon",
+        "Played with Ibrahimovic",
+        "Turkish League"
+      ]
+    },
+    {
+      "name": "Nigel de Jong",
+      "attributes": [
+        "Manchester City",
+        "Milan",
+        "Galatasaray",
+        "Ajax",
+        "Olanda",
+        "Premier League winner",
+        "Managed by Van Gaal",
+        "Played with Robben",
+        "Played with Ibrahimovic",
+        "USA League",
+        "Turkish League",
+        "German League",
+        "Dutch League"
+      ]
+    },
+    {
+      "name": "Lucas Ocampos",
+      "attributes": [
+        "Monaco",
+        "Olympique Marsiglia",
+        "Milan",
+        "River Plate",
+        "Ajax",
+        "Sud America",
+        "Argentina",
+        "Uefa Cup/Europa League winner",
+        "Played with Di Maria",
+        "Played with Messi",
+        "Argentine League",
+        "Dutch League"
+      ]
+    },
+    {
+      "name": "Xherdan Shaqiri",
+      "attributes": [
+        "Liverpool",
+        "Inter",
+        "Svizzera",
+        "Premier League winner",
+        "UCL winner",
+        "Managed by Guardiola",
+        "Played with Robben",
+        "USA League",
+        "German League"
+      ]
+    },
+    {
+      "name": "Denis Zakaria",
+      "attributes": [
+        "Chelsea",
+        "Monaco",
+        "Juventus",
+        "Svizzera",
+        "German League"
+      ]
+    },
+    {
+      "name": "Timothy Weah",
+      "attributes": [
+        "Olympique Marsiglia",
+        "PSG",
+        "Juventus",
+        "USA",
+        "Nord/Centro America O Caraibi",
+        "Played with Buffon",
+        "Played with Di Maria",
+        "Scottish League"
+      ]
+    },
+    {
+      "name": "Kaká",
+      "attributes": [
+        "Real Madrid",
+        "Milan",
+        "Sud America",
+        "Brasile",
+        "Ballon d’or",
+        "UCL winner",
+        "World Cup winner",
+        "LaLiga winner",
+        "Serie A winner",
+        "UCL golden boot",
+        "Managed by Mourinho",
+        "Managed by Ancelotti",
+        "Played with Ronaldo Nazario",
+        "Played with Di Maria",
+        "Played with Beckham",
+        "Played with Cristiano Ronaldo",
+        "USA League",
+        "Brazil League"
+      ]
+    },
+    {
+      "name": "Jardel",
+      "attributes": [
+        "Sporting Lisbona",
+        "Porto",
+        "Galatasaray",
+        "Sud America",
+        "Brasile",
+        "UCL golden boot",
+        "Played with Ronaldo Nazario",
+        "Played with Cristiano Ronaldo",
+        "Argentine League",
+        "Portugal League",
+        "Greek or Cypriot League",
+        "Turkish League",
+        "Brazil League"
+      ]
+    },
+    {
+      "name": "Näis Djouahra",
+      "attributes": [
+        "Francia",
+        "Portugal League"
+      ]
+    },
+    {
+      "name": "Unai Hernández",
+      "attributes": [
+        "Barcelona",
+        "Spagna",
+        "Saudi League"
+      ]
+    },
+    {
+      "name": "Willy Kumado",
+      "attributes": [
+        "Africa",
+        "Ghana",
+        "USA League"
+      ]
+    },
+    {
+      "name": "Noah Streit",
+      "attributes": [
+        "Svizzera",
+        "USA League"
+      ]
+    },
+    {
+      "name": "Joseph Okumu",
+      "attributes": [
+        "Africa",
+        "Belgian League"
+      ]
+    },
+    {
+      "name": "Victor Moses",
+      "attributes": [
+        "Liverpool",
+        "Chelsea",
+        "Inter",
+        "Africa",
+        "Nigeria",
+        "Premier League winner",
+        "Uefa Cup/Europa League winner",
+        "Managed by Mourinho",
+        "Managed by Benitez",
+        "Played with Lukaku",
+        "Turkish League"
+      ]
+    },
+    {
+      "name": "Marcelo Brozović",
+      "attributes": [
+        "Inter",
+        "Croazia",
+        "Serie A winner",
+        "Played with Lukaku",
+        "Played with Cristiano Ronaldo",
+        "Saudi League"
+      ]
+    },
+    {
+      "name": "John Arne Riise",
+      "attributes": [
+        "Liverpool",
+        "Monaco",
+        "Roma",
+        "Norvegia",
+        "UCL winner",
+        "Managed by Benitez",
+        "Greek or Cypriot League"
+      ]
+    },
+    {
+      "name": "Maarten Stekelenburg",
+      "attributes": [
+        "Monaco",
+        "Milan",
+        "Ajax",
+        "Olanda",
+        "Managed by Van Gaal",
+        "Managed by Ancelotti",
+        "Played with Lukaku",
+        "Played with Robben",
+        "Played with Ibrahimovic",
+        "Dutch League"
+      ]
+    },
+    {
+      "name": "Maicon",
+      "attributes": [
+        "Manchester City",
+        "Monaco",
+        "Inter",
+        "Roma",
+        "Sud America",
+        "Brasile",
+        "Copa America winner",
+        "UCL winner",
+        "Serie A winner",
+        "Managed by Mourinho",
+        "Managed by Benitez",
+        "Played with Ronaldo Nazario",
+        "Played with Ibrahimovic",
+        "Brazil League"
+      ]
+    },
+    {
+      "name": "Stephan El Shaarawy",
+      "attributes": [
+        "Monaco",
+        "Milan",
+        "Roma",
+        "Italia",
+        "Managed by Mourinho",
+        "Played with Buffon",
+        "Played with Lukaku",
+        "Played with Ibrahimovic",
+        "Chinese League"
+      ]
+    },
+    {
+      "name": "Ludovic Giuly",
+      "attributes": [
+        "Monaco",
+        "PSG",
+        "Barcelona",
+        "Roma",
+        "Francia",
+        "UCL winner",
+        "LaLiga winner",
+        "Played with Zidane",
+        "Played with Messi"
+      ]
+    },
+    {
+      "name": "Júlio Baptista",
+      "attributes": [
+        "Arsenal",
+        "Real Madrid",
+        "Roma",
+        "Sud America",
+        "Brasile",
+        "Copa America winner",
+        "LaLiga winner",
+        "Managed by Wenger",
+        "Played with Ronaldo Nazario",
+        "Played with Zidane",
+        "Played with Robben",
+        "Played with Beckham",
+        "USA League",
+        "Brazil League"
+      ]
+    },
+    {
+      "name": "Simon Kjær",
+      "attributes": [
+        "Milan",
+        "Roma",
+        "Danimarca",
+        "Serie A winner",
+        "Played with Ibrahimovic",
+        "Turkish League",
+        "German League"
+      ]
+    },
+    {
+      "name": "Jaroslav Plašil",
+      "attributes": [
+        "Monaco",
+        "Repubblica Ceca"
+      ]
+    },
+    {
+      "name": "Dennis Rommedahl",
+      "attributes": [
+        "PSV",
+        "Ajax",
+        "Danimarca",
+        "Played with Robben",
+        "Greek or Cypriot League",
+        "Dutch League"
+      ]
+    },
+    {
+      "name": "Mika Biereth",
+      "attributes": [
+        "Arsenal",
+        "Monaco",
+        "Danimarca",
+        "Scottish League",
+        "Dutch League"
+      ]
+    },
+    {
+      "name": "Patrik Schick",
+      "attributes": [
+        "Roma",
+        "Repubblica Ceca",
+        "German League"
+      ]
+    },
+    {
+      "name": "Petr Čech",
+      "attributes": [
+        "Arsenal",
+        "Chelsea",
+        "Repubblica Ceca",
+        "Premier League winner",
+        "Uefa Cup/Europa League winner",
+        "UCL winner",
+        "Managed by Mourinho",
+        "Managed by Benitez",
+        "Managed by Ancelotti",
+        "Managed by Wenger",
+        "Played with Lukaku",
+        "Played with Robben"
+      ]
+    },
+    {
+      "name": "Andriy Shevchenko",
+      "attributes": [
+        "Chelsea",
+        "Milan",
+        "Ucraina",
+        "Ballon d’or",
+        "UCL winner",
+        "UCL golden boot",
+        "Serie A golden boot",
+        "Managed by Mourinho",
+        "Managed by Ancelotti",
+        "Played with Robben",
+        "Played with Beckham"
+      ]
+    },
+    {
+      "name": "Gervinho",
+      "attributes": [
+        "Arsenal",
+        "Roma",
+        "Africa",
+        "Costa d’Avorio",
+        "Managed by Wenger",
+        "Belgian League",
+        "Greek or Cypriot League",
+        "Chinese League",
+        "Turkish League"
+      ]
+    },
+    {
+      "name": "Rui Patrício",
+      "attributes": [
+        "Roma",
+        "Sporting Lisbona",
+        "Portogallo",
+        "Euros winner",
+        "Managed by Mourinho",
+        "Played with Lukaku",
+        "Played with Cristiano Ronaldo",
+        "Portugal League"
+      ]
+    },
+    {
+      "name": "Henrikh Mkhitaryan",
+      "attributes": [
+        "Arsenal",
+        "Manchester United",
+        "Inter",
+        "Roma",
+        "Uefa Cup/Europa League winner",
+        "Serie A winner",
+        "Managed by Mourinho",
+        "Managed by Wenger",
+        "Played with Lukaku",
+        "Played with Ibrahimovic",
+        "German League"
+      ]
+    },
+    {
+      "name": "Oleh Luzhnyi",
+      "attributes": [
+        "Arsenal",
+        "Ucraina",
+        "Premier League winner",
+        "Managed by Wenger"
+      ]
+    },
+    {
+      "name": "Luís Boa Morte",
+      "attributes": [
+        "Arsenal",
+        "Sporting Lisbona",
+        "Portogallo",
+        "Premier League winner",
+        "Managed by Wenger",
+        "Played with Cristiano Ronaldo",
+        "USA League",
+        "Portugal League",
+        "Greek or Cypriot League"
+      ]
+    },
+    {
+      "name": "Houssem Aouar",
+      "attributes": [
+        "Roma",
+        "Africa",
+        "Managed by Mourinho",
+        "Played with Lukaku",
+        "Saudi League"
+      ]
+    },
+    {
+      "name": "David Ospina",
+      "attributes": [
+        "Arsenal",
+        "Napoli",
+        "Sud America",
+        "Colombia",
+        "Managed by Ancelotti",
+        "Managed by Wenger",
+        "Played with Cristiano Ronaldo",
+        "Saudi League"
+      ]
+    },
+    {
+      "name": "Roberto Di Matteo",
+      "attributes": [
+        "Chelsea",
+        "Lazio",
+        "Italia",
+        "Played with Buffon"
+      ]
+    },
+    {
+      "name": "Roberto Baggio",
+      "attributes": [
+        "Juventus",
+        "Inter",
+        "Milan",
+        "Italia",
+        "Ballon d’or",
+        "Uefa Cup/Europa League winner",
+        "Serie A winner",
+        "Played with Buffon",
+        "Played with Ronaldo Nazario"
+      ]
+    },
+    {
+      "name": "Gianluca Vialli",
+      "attributes": [
+        "Chelsea",
+        "Juventus",
+        "Italia",
+        "Premier League winner",
+        "Uefa Cup/Europa League winner",
+        "UCL winner",
+        "Serie A winner",
+        "Serie A golden boot"
+      ]
+    },
+    {
+      "name": "Nicolò Zaniolo",
+      "attributes": [
+        "Inter",
+        "Roma",
+        "Galatasaray",
+        "Italia",
+        "Managed by Mourinho",
+        "Turkish League"
+      ]
+    },
+    {
+      "name": "Samuel Eto'o",
+      "attributes": [
+        "Chelsea",
+        "Real Madrid",
+        "Barcelona",
+        "Inter",
+        "Cameron",
+        "Africa",
+        "LaLiga golden boot",
+        "UCL winner",
+        "LaLiga winner",
+        "Serie A winner",
+        "Managed by Mourinho",
+        "Managed by Benitez",
+        "Managed by Guardiola",
+        "Played with Lukaku",
+        "Played with Messi",
+        "Turkish League"
+      ]
+    },
+    {
+      "name": "Nicolas Anelka",
+      "attributes": [
+        "Arsenal",
+        "Manchester City",
+        "Liverpool",
+        "Chelsea",
+        "PSG",
+        "Real Madrid",
+        "Juventus",
+        "Francia",
+        "Premier League winner",
+        "UCL winner",
+        "Premier League golden boot",
+        "Serie A winner",
+        "Euros winner",
+        "Managed by Ancelotti",
+        "Managed by Wenger",
+        "Played with Buffon",
+        "Played with Lukaku",
+        "Played with Zidane",
+        "Chinese League",
+        "Turkish League"
+      ]
+    },
+    {
+      "name": "Radamel Falcao",
+      "attributes": [
+        "Chelsea",
+        "Manchester United",
+        "Monaco",
+        "Atletico Madrid",
+        "Porto",
+        "Galatasaray",
+        "River Plate",
+        "Sud America",
+        "Colombia",
+        "Uefa Cup/Europa League winner",
+        "Managed by Mourinho",
+        "Managed by Van Gaal",
+        "Played with Di Maria",
+        "Argentine League",
+        "Portugal League",
+        "Turkish League"
+      ]
+    },
+    {
+      "name": "Carlos Tévez",
+      "attributes": [
+        "Manchester City",
+        "Manchester United",
+        "Juventus",
+        "Boca Juniors",
+        "Sud America",
+        "Argentina",
+        "Premier League winner",
+        "UCL winner",
+        "Premier League golden boot",
+        "Serie A winner",
+        "Managed by Ferguson",
+        "Played with Buffon",
+        "Played with Di Maria",
+        "Played with Cristiano Ronaldo",
+        "Played with Messi",
+        "Argentine League",
+        "Chinese League",
+        "Brazil League"
+      ]
+    },
+    {
+      "name": "Park Ji-sung",
+      "attributes": [
+        "Manchester United",
+        "PSV",
+        "Asia o Oceania",
+        "Premier League winner",
+        "UCL winner",
+        "Managed by Ferguson",
+        "Played with Robben",
+        "Played with Cristiano Ronaldo",
+        "Dutch League"
+      ]
+    },
+    {
+      "name": "Luis Suárez",
+      "attributes": [
+        "Liverpool",
+        "Barcelona",
+        "Atletico Madrid",
+        "Ajax",
+        "Uruguay",
+        "Sud America",
+        "Copa America winner",
+        "LaLiga golden boot",
+        "UCL winner",
+        "Premier League golden boot",
+        "LaLiga winner",
+        "Played with Messi",
+        "USA League",
+        "Dutch League",
+        "Brazil League"
+      ]
+    },
+    {
+      "name": "Ronaldo Nazario",
+      "attributes": [
+        "Real Madrid",
+        "Barcelona",
+        "Inter",
+        "Milan",
+        "PSV",
+        "Sud America",
+        "Brasile",
+        "Ballon d’or",
+        "Copa America winner",
+        "LaLiga golden boot",
+        "Uefa Cup/Europa League winner",
+        "World Cup golden boot",
+        "World Cup winner",
+        "LaLiga winner",
+        "Managed by Ancelotti",
+        "Played with Zidane",
+        "Played with Beckham",
+        "Dutch League",
+        "Brazil League"
+      ]
+    },
+    {
+      "name": "Cesc Fàbregas",
+      "attributes": [
+        "Arsenal",
+        "Chelsea",
+        "Monaco",
+        "Barcelona",
+        "Spagna",
+        "Premier League winner",
+        "Uefa Cup/Europa League winner",
+        "World Cup winner",
+        "LaLiga winner",
+        "Euros winner",
+        "Managed by Mourinho",
+        "Managed by Guardiola",
+        "Managed by Wenger",
+        "Played with Messi"
+      ]
+    },
+    {
+      "name": "Xabi Alonso",
+      "attributes": [
+        "Liverpool",
+        "Real Madrid",
+        "Spagna",
+        "UCL winner",
+        "World Cup winner",
+        "LaLiga winner",
+        "Euros winner",
+        "Managed by Mourinho",
+        "Managed by Benitez",
+        "Managed by Guardiola",
+        "Managed by Ancelotti",
+        "Played with Robben",
+        "Played with Di Maria",
+        "Played with Cristiano Ronaldo",
+        "German League"
+      ]
+    },
+    {
+      "name": "Wesley Sneijder",
+      "attributes": [
+        "Real Madrid",
+        "Inter",
+        "Galatasaray",
+        "Ajax",
+        "Olanda",
+        "UCL winner",
+        "LaLiga winner",
+        "Serie A winner",
+        "Managed by Mourinho",
+        "Managed by Benitez",
+        "Managed by Van Gaal",
+        "Played with Robben",
+        "Played with Ibrahimovic",
+        "Turkish League",
+        "Dutch League"
+      ]
+    },
+    {
+      "name": "Bryan Mbeumo",
+      "attributes": [
+        "Manchester United",
+        "Cameron",
+        "Africa"
+      ]
+    },
+    {
+      "name": "André-Frank Anguissa",
+      "attributes": [
+        "Olympique Marsiglia",
+        "Napoli",
+        "Cameron",
+        "Africa",
+        "Serie A winner",
+        "Played with Lukaku"
+      ]
+    },
+    {
+      "name": "André Onana",
+      "attributes": [
+        "Manchester United",
+        "Inter",
+        "Ajax",
+        "Cameron",
+        "Africa",
+        "Played with Lukaku",
+        "Turkish League",
+        "Dutch League"
+      ]
+    },
+    {
+      "name": "Danny Namaso",
+      "attributes": [
+        "Porto",
+        "Cameron",
+        "Africa",
+        "Portugal League"
+      ]
+    },
+    {
+      "name": "Faris Moumbagna",
+      "attributes": [
+        "Olympique Marsiglia",
+        "Cameron",
+        "Africa"
+      ]
+    },
+    {
+      "name": "Jean Onana",
+      "attributes": [
+        "Olympique Marsiglia",
+        "Cameron",
+        "Africa",
+        "Portugal League",
+        "Belgian League",
+        "Turkish League"
+      ]
+    },
+    {
+      "name": "Joel Matip",
+      "attributes": [
+        "Liverpool",
+        "Cameron",
+        "Africa",
+        "Premier League winner",
+        "UCL winner",
+        "German League"
+      ]
+    },
+    {
+      "name": "Pierre-Daniel Nguinda",
+      "attributes": [
+        "Monaco",
+        "Cameron",
+        "Africa",
+        "Belgian League"
+      ]
+    },
+    {
+      "name": "Vincent Aboubakar",
+      "attributes": [
+        "Porto",
+        "Cameron",
+        "Africa",
+        "Portugal League",
+        "Saudi League",
+        "Turkish League"
+      ]
+    },
+    {
+      "name": "Eric Maxim Choupo-Moting",
+      "attributes": [
+        "PSG",
+        "Cameron",
+        "Africa",
+        "Played with Buffon",
+        "Played with Di Maria",
+        "USA League",
+        "German League"
+      ]
+    },
+    {
+      "name": "Joseph Minala",
+      "attributes": [
+        "Lazio",
+        "Cameron",
+        "Africa",
+        "Chinese League"
+      ]
+    },
+    {
+      "name": "Clinton N'Jie",
+      "attributes": [
+        "Tottenham",
+        "Olympique Marsiglia",
+        "Cameron",
+        "Africa",
+        "Turkish League"
+      ]
+    },
+    {
+      "name": "Aurélien Chedjou",
+      "attributes": [
+        "Galatasaray",
+        "Cameron",
+        "Africa",
+        "Turkish League"
+      ]
+    },
+    {
+      "name": "Wilfrid Kaptoum",
+      "attributes": [
+        "Barcelona",
+        "Cameron",
+        "Africa",
+        "Played with Messi",
+        "USA League",
+        "Greek or Cypriot League"
+      ]
+    },
+    {
+      "name": "Nicolas Nkoulou",
+      "attributes": [
+        "Monaco",
+        "Olympique Marsiglia",
+        "Cameron",
+        "Africa",
+        "Greek or Cypriot League",
+        "Turkish League"
+      ]
+    },
+    {
+      "name": "Maxwell Woledzi",
+      "attributes": [
+        "Africa",
+        "Ghana",
+        "USA League",
+        "Portugal League"
+      ]
+    },
+    {
+      "name": "Marko Arnautović",
+      "attributes": [
+        "Inter",
+        "UCL winner",
+        "Serie A winner",
+        "Managed by Mourinho",
+        "Chinese League",
+        "German League",
+        "Dutch League"
+      ]
+    },
+    {
+      "name": "Arthur Theate",
+      "attributes": [
+        "Belgio",
+        "Played with Lukaku",
+        "Belgian League",
+        "German League"
+      ]
+    },
+    {
+      "name": "Diego Callai",
+      "attributes": [
+        "Sporting Lisbona",
+        "Brasile",
+        "Portugal League"
+      ]
+    },
+    {
+      "name": "Aurélien Tchouaméni",
+      "attributes": [
+        "Monaco",
+        "Real Madrid",
+        "Francia",
+        "UCL winner",
+        "LaLiga winner",
+        "Managed by Ancelotti"
+      ]
+    },
+    {
+      "name": "Erhan Mašović",
+      "attributes": [
+        "Serbia",
+        "Belgian League",
+        "German League"
+      ]
+    },
+    {
+      "name": "Aboubakary Koita",
+      "attributes": [
+        "Africa",
+        "Belgian League",
+        "Greek or Cypriot League"
+      ]
+    },
+    {
+      "name": "Denzel Dumfries",
+      "attributes": [
+        "Real Madrid",
+        "Inter",
+        "PSV",
+        "Olanda",
+        "Serie A winner",
+        "Managed by Van Gaal",
+        "Played with Lukaku",
+        "Dutch League"
+      ]
+    },
+    {
+      "name": "Abderrazak Hamdallah",
+      "attributes": [
+        "Marocco",
+        "Africa",
+        "Saudi League",
+        "Chinese League"
+      ]
+    },
+    {
+      "name": "Myron Boadu",
+      "attributes": [
+        "Monaco",
+        "PSV",
+        "Olanda",
+        "German League",
+        "Dutch League"
+      ]
+    },
+    {
+      "name": "Eduardo Camavinga",
+      "attributes": [
+        "Real Madrid",
+        "Francia",
+        "UCL winner",
+        "LaLiga winner",
+        "Managed by Ancelotti"
+      ]
+    },
+    {
+      "name": "Heinz Lindner",
+      "attributes": [
+        "Belgian League",
+        "German League"
+      ]
+    },
+    {
+      "name": "Harry Maguire",
+      "attributes": [
+        "Manchester United",
+        "Inghilterra",
+        "Played with Cristiano Ronaldo"
+      ]
+    },
+    {
+      "name": "Lucas Martínez Quarta",
+      "attributes": [
+        "River Plate",
+        "Sud America",
+        "Argentina",
+        "Copa America winner",
+        "Played with Di Maria",
+        "Played with Messi",
+        "Argentine League"
+      ]
+    },
+    {
+      "name": "Mukhtar Ali",
+      "attributes": [
+        "Asia o Oceania",
+        "Played with Cristiano Ronaldo",
+        "Saudi League",
+        "Dutch League"
+      ]
+    },
+    {
+      "name": "Giovanni Di Lorenzo",
+      "attributes": [
+        "Napoli",
+        "Italia",
+        "Serie A winner",
+        "Euros winner",
+        "Managed by Ancelotti",
+        "Played with Lukaku"
+      ]
+    },
+    {
+      "name": "Bilal Boutobba",
+      "attributes": [
+        "Olympique Marsiglia",
+        "Francia",
+        "Saudi League",
+        "Turkish League"
+      ]
+    },
+    {
+      "name": "Guillermo Maripán",
+      "attributes": [
+        "Monaco",
+        "Sud America",
+        "Cile",
+        "Brazil League"
+      ]
+    },
+    {
+      "name": "Didier Drogba",
+      "attributes": [
+        "Chelsea",
+        "Olympique Marsiglia",
+        "Galatasaray",
+        "Africa",
+        "Costa d’Avorio",
+        "Premier League winner",
+        "UCL winner",
+        "Premier League golden boot",
+        "Managed by Mourinho",
+        "Managed by Ancelotti",
+        "Played with Lukaku",
+        "Played with Robben",
+        "USA League",
+        "Chinese League",
+        "Turkish League"
+      ]
+    },
+    {
+      "name": "David Beckham",
+      "attributes": [
+        "Manchester United",
+        "PSG",
+        "Real Madrid",
+        "Milan",
+        "Inghilterra",
+        "Premier League winner",
+        "UCL winner",
+        "LaLiga winner",
+        "Managed by Ferguson",
+        "Managed by Ancelotti",
+        "Played with Ronaldo Nazario",
+        "Played with Zidane",
+        "Played with Ibrahimovic",
+        "USA League"
+      ]
+    },
+    {
+      "name": "Emmanuel Adebayor",
+      "attributes": [
+        "Arsenal",
+        "Manchester City",
+        "Tottenham",
+        "Monaco",
+        "Real Madrid",
+        "Africa",
+        "Managed by Mourinho",
+        "Managed by Wenger",
+        "Played with Di Maria",
+        "Played with Cristiano Ronaldo",
+        "Turkish League"
+      ]
+    },
+    {
+      "name": "Arturo Vidal",
+      "attributes": [
+        "Barcelona",
+        "Juventus",
+        "Inter",
+        "Sud America",
+        "Cile",
+        "Copa America winner",
+        "LaLiga winner",
+        "Serie A winner",
+        "Managed by Guardiola",
+        "Managed by Ancelotti",
+        "Played with Buffon",
+        "Played with Lukaku",
+        "Played with Robben",
+        "Played with Messi",
+        "German League",
+        "Brazil League"
+      ]
+    },
+    {
+      "name": "Arjen Robben",
+      "attributes": [
+        "Chelsea",
+        "Real Madrid",
+        "PSV",
+        "Olanda",
+        "Premier League winner",
+        "UCL winner",
+        "LaLiga winner",
+        "Managed by Mourinho",
+        "Managed by Van Gaal",
+        "Managed by Guardiola",
+        "Managed by Ancelotti",
+        "German League",
+        "Dutch League"
+      ]
+    },
+    {
+      "name": "Edinson Cavani",
+      "attributes": [
+        "Manchester United",
+        "PSG",
+        "Napoli",
+        "Boca Juniors",
+        "Uruguay",
+        "Sud America",
+        "Copa America winner",
+        "Serie A golden boot",
+        "Played with Buffon",
+        "Played with Di Maria",
+        "Played with Cristiano Ronaldo",
+        "Played with Ibrahimovic",
+        "Argentine League"
+      ]
+    },
+    {
+      "name": "Esteban Cambiasso",
+      "attributes": [
+        "Real Madrid",
+        "Inter",
+        "River Plate",
+        "Sud America",
+        "Argentina",
+        "UCL winner",
+        "LaLiga winner",
+        "Serie A winner",
+        "Managed by Mourinho",
+        "Managed by Benitez",
+        "Played with Ronaldo Nazario",
+        "Played with Zidane",
+        "Played with Di Maria",
+        "Played with Beckham",
+        "Played with Ibrahimovic",
+        "Played with Messi",
+        "Argentine League",
+        "Greek or Cypriot League"
+      ]
+    },
+    {
+      "name": "Alexandre Pato",
+      "attributes": [
+        "Chelsea",
+        "Milan",
+        "Sud America",
+        "Brasile",
+        "Serie A winner",
+        "Managed by Ancelotti",
+        "Played with Ronaldo Nazario",
+        "Played with Beckham",
+        "Played with Ibrahimovic",
+        "USA League",
+        "Chinese League",
+        "Brazil League"
+      ]
+    },
+    {
+      "name": "Luis Figo",
+      "attributes": [
+        "Real Madrid",
+        "Barcelona",
+        "Inter",
+        "Sporting Lisbona",
+        "Portogallo",
+        "Ballon d’or",
+        "UCL winner",
+        "LaLiga winner",
+        "Serie A winner",
+        "Managed by Mourinho",
+        "Managed by Van Gaal",
+        "Played with Ronaldo Nazario",
+        "Played with Zidane",
+        "Played with Beckham",
+        "Played with Cristiano Ronaldo",
+        "Played with Ibrahimovic",
+        "Portugal League"
+      ]
+    },
+    {
+      "name": "Gennaro Gattuso",
+      "attributes": [
+        "Milan",
+        "Italia",
+        "UCL winner",
+        "World Cup winner",
+        "Serie A winner",
+        "Managed by Ancelotti",
+        "Played with Buffon",
+        "Played with Ronaldo Nazario",
+        "Played with Beckham",
+        "Played with Ibrahimovic",
+        "Scottish League"
+      ]
+    },
+    {
+      "name": "Rivaldo",
+      "attributes": [
+        "Barcelona",
+        "Milan",
+        "Sud America",
+        "Brasile",
+        "Ballon d’or",
+        "Copa America winner",
+        "UCL winner",
+        "World Cup winner",
+        "LaLiga winner",
+        "UCL golden boot",
+        "Managed by Van Gaal",
+        "Managed by Ancelotti",
+        "Played with Ronaldo Nazario",
+        "Greek or Cypriot League",
+        "Brazil League"
+      ]
+    },
+    {
+      "name": "Dani Alves",
+      "attributes": [
+        "PSG",
+        "Barcelona",
+        "Juventus",
+        "Sud America",
+        "Brasile",
+        "Copa America winner",
+        "Uefa Cup/Europa League winner",
+        "UCL winner",
+        "LaLiga winner",
+        "Serie A winner",
+        "Managed by Guardiola",
+        "Played with Buffon",
+        "Played with Di Maria",
+        "Played with Ibrahimovic",
+        "Played with Messi",
+        "Brazil League"
+      ]
+    },
+    {
+      "name": "Bobby Adekanye",
+      "attributes": [
+        "Lazio",
+        "Olanda",
+        "Turkish League",
+        "Dutch League"
+      ]
+    },
+    {
+      "name": "Lucas Leiva",
+      "attributes": [
+        "Liverpool",
+        "Lazio",
+        "Sud America",
+        "Brasile",
+        "Managed by Benitez",
+        "Played with Ronaldo Nazario",
+        "Brazil League"
+      ]
+    },
+    {
+      "name": "Jordan Lukaku",
+      "attributes": [
+        "Lazio",
+        "Belgio",
+        "Played with Lukaku",
+        "Belgian League",
+        "Turkish League"
+      ]
+    },
+    {
+      "name": "Jaap Stam",
+      "attributes": [
+        "Manchester United",
+        "Milan",
+        "Lazio",
+        "PSV",
+        "Ajax",
+        "Olanda",
+        "Premier League winner",
+        "UCL winner",
+        "Managed by Ferguson",
+        "Managed by Van Gaal",
+        "Managed by Ancelotti",
+        "Played with Ronaldo Nazario",
+        "Played with Robben",
+        "Played with Beckham",
+        "Dutch League"
+      ]
+    },
+    {
+      "name": "Luis Alberto",
+      "attributes": [
+        "Liverpool",
+        "Lazio",
+        "Spagna"
+      ]
+    },
+    {
+      "name": "Djibril Cissé",
+      "attributes": [
+        "Liverpool",
+        "Olympique Marsiglia",
+        "Lazio",
+        "Francia",
+        "UCL winner",
+        "Managed by Benitez",
+        "Played with Zidane",
+        "Greek or Cypriot League"
+      ]
+    },
+    {
+      "name": "Nani",
+      "attributes": [
+        "Manchester United",
+        "Lazio",
+        "Sporting Lisbona",
+        "Portogallo",
+        "Premier League winner",
+        "UCL winner",
+        "Euros winner",
+        "Managed by Ferguson",
+        "Managed by Van Gaal",
+        "Played with Cristiano Ronaldo",
+        "USA League",
+        "Portugal League",
+        "Turkish League"
+      ]
+    },
+    {
+      "name": "Abel Xavier",
+      "attributes": [
+        "Liverpool",
+        "Roma",
+        "Benfica",
+        "Galatasaray",
+        "PSV",
+        "Portogallo",
+        "Played with Beckham",
+        "USA League",
+        "Portugal League",
+        "Turkish League",
+        "German League",
+        "Dutch League"
+      ]
+    },
+    {
+      "name": "Fábio Silva",
+      "attributes": [
+        "Porto",
+        "PSV",
+        "Portogallo",
+        "Portugal League",
+        "Belgian League",
+        "Scottish League",
+        "German League",
+        "Dutch League"
+      ]
+    },
+    {
+      "name": "Raul Meireles",
+      "attributes": [
+        "Liverpool",
+        "Chelsea",
+        "Porto",
+        "Portogallo",
+        "UCL winner",
+        "Played with Lukaku",
+        "Played with Cristiano Ronaldo",
+        "Portugal League",
+        "Turkish League"
+      ]
+    },
+    {
+      "name": "Arouna Koné",
+      "attributes": [
+        "PSV",
+        "Africa",
+        "Costa d’Avorio",
+        "Played with Lukaku",
+        "Belgian League",
+        "Turkish League",
+        "German League",
+        "Dutch League"
+      ]
+    },
+    {
+      "name": "Samuel Okunowo",
+      "attributes": [
+        "Barcelona",
+        "Benfica",
+        "Africa",
+        "Nigeria",
+        "LaLiga winner",
+        "Managed by Van Gaal",
+        "Portugal League",
+        "Greek or Cypriot League"
+      ]
+    },
+    {
+      "name": "Victor Osimhen",
+      "attributes": [
+        "Napoli",
+        "Galatasaray",
+        "Africa",
+        "Nigeria",
+        "Serie A winner",
+        "Serie A golden boot",
+        "Belgian League",
+        "Turkish League",
+        "German League"
+      ]
+    },
+    {
+      "name": "Laurent Blanc",
+      "attributes": [
+        "Manchester United",
+        "Olympique Marsiglia",
+        "Barcelona",
+        "Inter",
+        "Napoli",
+        "Francia",
+        "Premier League winner",
+        "World Cup winner",
+        "Euros winner",
+        "Managed by Ferguson",
+        "Played with Ronaldo Nazario",
+        "Played with Zidane",
+        "Played with Beckham"
+      ]
+    },
+    {
+      "name": "Diego Maradona",
+      "attributes": [
+        "Barcelona",
+        "Napoli",
+        "Boca Juniors",
+        "Sud America",
+        "Argentina",
+        "Uefa Cup/Europa League winner",
+        "World Cup winner",
+        "Serie A winner",
+        "Serie A golden boot",
+        "Argentine League"
+      ]
+    },
+    {
+      "name": "Odion Ighalo",
+      "attributes": [
+        "Manchester United",
+        "Africa",
+        "Nigeria",
+        "Saudi League",
+        "Chinese League"
+      ]
+    },
+    {
+      "name": "Romelu Lukaku",
+      "attributes": [
+        "Chelsea",
+        "Manchester United",
+        "Inter",
+        "Roma",
+        "Napoli",
+        "Belgio",
+        "Serie A winner",
+        "Managed by Mourinho",
+        "Played with Ibrahimovic",
+        "Belgian League"
+      ]
+    },
+    {
+      "name": "Edgar Davids",
+      "attributes": [
+        "Tottenham",
+        "Barcelona",
+        "Juventus",
+        "Inter",
+        "Milan",
+        "Ajax",
+        "Olanda",
+        "Uefa Cup/Europa League winner",
+        "UCL winner",
+        "Serie A winner",
+        "Managed by Van Gaal",
+        "Managed by Ancelotti",
+        "Played with Buffon",
+        "Played with Zidane",
+        "Played with Robben",
+        "Dutch League"
+      ]
+    },
+    {
+      "name": "Erik Lamela",
+      "attributes": [
+        "Tottenham",
+        "Roma",
+        "River Plate",
+        "Sud America",
+        "Argentina",
+        "Uefa Cup/Europa League winner",
+        "Managed by Mourinho",
+        "Played with Di Maria",
+        "Played with Messi",
+        "Argentine League",
+        "Greek or Cypriot League"
+      ]
+    },
+    {
+      "name": "Diego Simeone",
+      "attributes": [
+        "Atletico Madrid",
+        "Inter",
+        "Lazio",
+        "Sud America",
+        "Argentina",
+        "Copa America winner",
+        "Uefa Cup/Europa League winner",
+        "LaLiga winner",
+        "Serie A winner",
+        "Played with Ronaldo Nazario",
+        "Argentine League"
+      ]
+    },
+    {
+      "name": "Gonzalo Higuain",
+      "attributes": [
+        "Chelsea",
+        "Real Madrid",
+        "Juventus",
+        "Milan",
+        "Napoli",
+        "River Plate",
+        "Sud America",
+        "Argentina",
+        "Uefa Cup/Europa League winner",
+        "LaLiga winner",
+        "Serie A winner",
+        "Serie A golden boot",
+        "Managed by Mourinho",
+        "Managed by Benitez",
+        "Played with Buffon",
+        "Played with Robben",
+        "Played with Di Maria",
+        "Played with Beckham",
+        "Played with Cristiano Ronaldo",
+        "Played with Messi",
+        "USA League",
+        "Argentine League"
+      ]
+    },
+    {
+      "name": "Ashley Cole",
+      "attributes": [
+        "Arsenal",
+        "Chelsea",
+        "Roma",
+        "Inghilterra",
+        "Premier League winner",
+        "Uefa Cup/Europa League winner",
+        "UCL winner",
+        "Managed by Mourinho",
+        "Managed by Benitez",
+        "Managed by Ancelotti",
+        "Managed by Wenger",
+        "Played with Lukaku",
+        "Played with Robben",
+        "Played with Beckham",
+        "Played with Ibrahimovic",
+        "USA League"
+      ]
+    },
+    {
+      "name": "Paul Pogba",
+      "attributes": [
+        "Manchester United",
+        "Monaco",
+        "Juventus",
+        "Francia",
+        "Uefa Cup/Europa League winner",
+        "World Cup winner",
+        "Serie A winner",
+        "Managed by Mourinho",
+        "Managed by Ferguson",
+        "Played with Buffon",
+        "Played with Lukaku",
+        "Played with Di Maria",
+        "Played with Cristiano Ronaldo",
+        "Played with Ibrahimovic"
+      ]
+    },
+    {
+      "name": "Pedro",
+      "attributes": [
+        "Chelsea",
+        "Barcelona",
+        "Lazio",
+        "Roma",
+        "Spagna",
+        "Premier League winner",
+        "Uefa Cup/Europa League winner",
+        "UCL winner",
+        "World Cup winner",
+        "LaLiga winner",
+        "Euros winner",
+        "Managed by Mourinho",
+        "Managed by Guardiola",
+        "Played with Ibrahimovic",
+        "Played with Messi"
+      ]
+    },
+    {
+      "name": "Wayne Rooney",
+      "attributes": [
+        "Manchester United",
+        "Inghilterra",
+        "Premier League winner",
+        "Uefa Cup/Europa League winner",
+        "UCL winner",
+        "Managed by Mourinho",
+        "Managed by Ferguson",
+        "Managed by Van Gaal",
+        "Played with Di Maria",
+        "Played with Beckham",
+        "Played with Cristiano Ronaldo",
+        "Played with Ibrahimovic",
+        "USA League"
+      ]
+    },
+    {
+      "name": "Clarence Seedorf",
+      "attributes": [
+        "Real Madrid",
+        "Inter",
+        "Milan",
+        "Ajax",
+        "Olanda",
+        "UCL winner",
+        "LaLiga winner",
+        "Serie A winner",
+        "Managed by Van Gaal",
+        "Managed by Ancelotti",
+        "Played with Ronaldo Nazario",
+        "Played with Robben",
+        "Played with Beckham",
+        "Played with Ibrahimovic",
+        "Dutch League",
+        "Brazil League"
+      ]
+    },
+    {
+      "name": "Pierre-Emerick Aubameyang",
+      "attributes": [
+        "Arsenal",
+        "Chelsea",
+        "Monaco",
+        "Olympique Marsiglia",
+        "Barcelona",
+        "Milan",
+        "Africa",
+        "Premier League golden boot",
+        "Managed by Ancelotti",
+        "Managed by Wenger",
+        "Saudi League",
+        "German League"
+      ]
+    },
+    {
+      "name": "Sergio Ramos",
+      "attributes": [
+        "PSG",
+        "Real Madrid",
+        "Spagna",
+        "UCL winner",
+        "World Cup winner",
+        "LaLiga winner",
+        "Euros winner",
+        "Managed by Mourinho",
+        "Managed by Benitez",
+        "Managed by Ancelotti",
+        "Played with Ronaldo Nazario",
+        "Played with Zidane",
+        "Played with Robben",
+        "Played with Di Maria",
+        "Played with Beckham",
+        "Played with Cristiano Ronaldo",
+        "Played with Messi"
+      ]
+    },
+    {
+      "name": "Mesut Özil",
+      "attributes": [
+        "Arsenal",
+        "Real Madrid",
+        "Germania",
+        "World Cup winner",
+        "LaLiga winner",
+        "Managed by Mourinho",
+        "Managed by Ancelotti",
+        "Managed by Wenger",
+        "Played with Di Maria",
+        "Played with Cristiano Ronaldo",
+        "Turkish League",
+        "German League"
+      ]
+    },
+    {
+      "name": "Thiago Silva",
+      "attributes": [
+        "Chelsea",
+        "PSG",
+        "Milan",
+        "Porto",
+        "Sud America",
+        "Brasile",
+        "Copa America winner",
+        "UCL winner",
+        "Serie A winner",
+        "Managed by Ancelotti",
+        "Played with Buffon",
+        "Played with Lukaku",
+        "Played with Di Maria",
+        "Played with Beckham",
+        "Played with Ibrahimovic",
+        "Portugal League",
+        "Brazil League"
+      ]
+    },
+    {
+      "name": "Antoine Semenyo",
+      "attributes": [
+        "Manchester City",
+        "Africa",
+        "Ghana",
+        "Managed by Guardiola"
+      ]
+    },
+    {
+      "name": "Michael Essien",
+      "attributes": [
+        "Chelsea",
+        "Real Madrid",
+        "Milan",
+        "Africa",
+        "Ghana",
+        "Premier League winner",
+        "UCL winner",
+        "Managed by Mourinho",
+        "Managed by Ancelotti",
+        "Played with Lukaku",
+        "Played with Robben",
+        "Played with Di Maria",
+        "Played with Cristiano Ronaldo",
+        "Greek or Cypriot League"
+      ]
+    },
+    {
+      "name": "Aleksandar Kolarov",
+      "attributes": [
+        "Manchester City",
+        "Inter",
+        "Lazio",
+        "Roma",
+        "Serbia",
+        "Premier League winner",
+        "Serie A winner",
+        "Managed by Guardiola",
+        "Played with Lukaku"
+      ]
+    },
+    {
+      "name": "Mateja Kežman",
+      "attributes": [
+        "Chelsea",
+        "PSG",
+        "Atletico Madrid",
+        "PSV",
+        "Serbia",
+        "Premier League winner",
+        "Managed by Mourinho",
+        "Played with Robben",
+        "Turkish League",
+        "Dutch League"
+      ]
+    },
+    {
+      "name": "Cafu",
+      "attributes": [
+        "Milan",
+        "Roma",
+        "Sud America",
+        "Brasile",
+        "Copa America winner",
+        "UCL winner",
+        "World Cup winner",
+        "Serie A winner",
+        "Managed by Ancelotti",
+        "Played with Ronaldo Nazario",
+        "Brazil League"
+      ]
+    },
+    {
+      "name": "Edin Džeko",
+      "attributes": [
+        "Manchester City",
+        "Inter",
+        "Roma",
+        "Premier League winner",
+        "Serie A golden boot",
+        "Managed by Mourinho",
+        "Played with Lukaku",
+        "Turkish League",
+        "German League"
+      ]
+    },
+    {
+      "name": "Oleksandr Zinčenko",
+      "attributes": [
+        "Arsenal",
+        "Manchester City",
+        "PSV",
+        "Ajax",
+        "Ucraina",
+        "Premier League winner",
+        "Managed by Guardiola",
+        "Dutch League"
+      ]
+    },
+    {
+      "name": "Angeliño",
+      "attributes": [
+        "Manchester City",
+        "Roma",
+        "Galatasaray",
+        "PSV",
+        "Spagna",
+        "Managed by Guardiola",
+        "Played with Lukaku",
+        "USA League",
+        "Turkish League",
+        "German League",
+        "Dutch League"
+      ]
+    },
+    {
+      "name": "Paulo Dybala",
+      "attributes": [
+        "Juventus",
+        "Roma",
+        "Sud America",
+        "Argentina",
+        "World Cup winner",
+        "Serie A winner",
+        "Managed by Mourinho",
+        "Played with Buffon",
+        "Played with Lukaku",
+        "Played with Di Maria",
+        "Played with Cristiano Ronaldo",
+        "Played with Messi",
+        "Argentine League"
+      ]
+    },
+    {
+      "name": "Nicolás Otamendi",
+      "attributes": [
+        "Manchester City",
+        "Benfica",
+        "Porto",
+        "River Plate",
+        "Sud America",
+        "Argentina",
+        "Premier League winner",
+        "Copa America winner",
+        "Uefa Cup/Europa League winner",
+        "World Cup winner",
+        "Managed by Mourinho",
+        "Managed by Guardiola",
+        "Played with Di Maria",
+        "Played with Messi",
+        "Argentine League",
+        "Portugal League",
+        "Brazil League"
+      ]
+    },
+    {
+      "name": "Iván Zamorano",
+      "attributes": [
+        "Real Madrid",
+        "Inter",
+        "Sud America",
+        "Cile",
+        "LaLiga golden boot",
+        "Uefa Cup/Europa League winner",
+        "LaLiga winner",
+        "Played with Ronaldo Nazario"
+      ]
+    },
+    {
+      "name": "Youri Tielemans",
+      "attributes": [
+        "Monaco",
+        "Belgio",
+        "Uefa Cup/Europa League winner",
+        "Played with Lukaku",
+        "Belgian League"
+      ]
+    },
+    {
+      "name": "Jorginho",
+      "attributes": [
+        "Arsenal",
+        "Chelsea",
+        "Napoli",
+        "Italia",
+        "Uefa Cup/Europa League winner",
+        "UCL winner",
+        "Euros winner",
+        "Managed by Van Gaal",
+        "Played with Buffon",
+        "Played with Lukaku",
+        "Brazil League"
+      ]
+    },
+    {
+      "name": "David Luiz",
+      "attributes": [
+        "Arsenal",
+        "Chelsea",
+        "PSG",
+        "Benfica",
+        "Sud America",
+        "Brasile",
+        "Premier League winner",
+        "Uefa Cup/Europa League winner",
+        "UCL winner",
+        "Managed by Mourinho",
+        "Managed by Benitez",
+        "Managed by Ancelotti",
+        "Played with Lukaku",
+        "Played with Ronaldo Nazario",
+        "Played with Di Maria",
+        "Played with Ibrahimovic",
+        "Portugal League",
+        "Greek or Cypriot League",
+        "Brazil League"
+      ]
+    },
+    {
+      "name": "Marek Jankulovski",
+      "attributes": [
+        "Milan",
+        "Napoli",
+        "Repubblica Ceca",
+        "UCL winner",
+        "Serie A winner",
+        "Managed by Ancelotti",
+        "Played with Ronaldo Nazario",
+        "Played with Beckham",
+        "Played with Ibrahimovic"
+      ]
+    },
+    {
+      "name": "David Neres",
+      "attributes": [
+        "Napoli",
+        "Benfica",
+        "Ajax",
+        "Sud America",
+        "Brasile",
+        "Copa America winner",
+        "Serie A winner",
+        "Played with Lukaku",
+        "Played with Di Maria",
+        "Portugal League",
+        "Dutch League",
+        "Brazil League"
+      ]
+    },
+    {
+      "name": "Nicolás Tagliafico",
+      "attributes": [
+        "Ajax",
+        "Sud America",
+        "Argentina",
+        "Copa America winner",
+        "World Cup winner",
+        "Played with Di Maria",
+        "Played with Messi",
+        "Argentine League"
+      ]
+    },
+    {
+      "name": "Vítězslav Jaroš",
+      "attributes": [
+        "Liverpool",
+        "Ajax",
+        "Repubblica Ceca",
+        "Premier League winner",
+        "Dutch League"
+      ]
+    },
+    {
+      "name": "Erick Pulgar",
+      "attributes": [
+        "Galatasaray",
+        "Sud America",
+        "Cile",
+        "Copa America winner",
+        "Turkish League",
+        "Brazil League"
+      ]
+    },
+    {
+      "name": "Claudio Bravo",
+      "attributes": [
+        "Manchester City",
+        "Barcelona",
+        "Sud America",
+        "Cile",
+        "Premier League winner",
+        "Copa America winner",
+        "UCL winner",
+        "LaLiga winner",
+        "Managed by Guardiola",
+        "Played with Messi"
+      ]
+    },
+    {
+      "name": "Gary Medel",
+      "attributes": [
+        "Inter",
+        "Boca Juniors",
+        "Sud America",
+        "Cile",
+        "Copa America winner",
+        "Argentine League",
+        "Turkish League",
+        "Brazil League"
+      ]
+    },
+    {
+      "name": "David Pizarro",
+      "attributes": [
+        "Manchester City",
+        "Inter",
+        "Roma",
+        "Sud America",
+        "Cile",
+        "Premier League winner",
+        "Copa America winner",
+        "Serie A winner"
+      ]
+    },
+    {
+      "name": "Mark González",
+      "attributes": [
+        "Liverpool",
+        "Sud America",
+        "Cile",
+        "Copa America winner",
+        "Managed by Benitez",
+        "Brazil League"
+      ]
+    },
+    {
+      "name": "Cristián Cuevas",
+      "attributes": [
+        "Chelsea",
+        "Sud America",
+        "Cile",
+        "Managed by Mourinho",
+        "Belgian League",
+        "Dutch League"
+      ]
+    },
+    {
+      "name": "Pablo Contreras",
+      "attributes": [
+        "Monaco",
+        "Sporting Lisbona",
+        "Sud America",
+        "Cile",
+        "Played with Cristiano Ronaldo",
+        "Argentine League",
+        "Portugal League",
+        "Greek or Cypriot League"
+      ]
+    },
+    {
+      "name": "Mauricio Isla",
+      "attributes": [
+        "Olympique Marsiglia",
+        "Juventus",
+        "Sud America",
+        "Cile",
+        "Copa America winner",
+        "Serie A winner",
+        "Played with Buffon",
+        "Argentine League",
+        "Turkish League",
+        "Brazil League"
+      ]
+    },
+    {
+      "name": "Francisco Molina",
+      "attributes": [
+        "Atletico Madrid",
+        "Sud America",
+        "Cile"
+      ]
+    },
+    {
+      "name": "Marcelo Salas",
+      "attributes": [
+        "Juventus",
+        "Lazio",
+        "River Plate",
+        "Sud America",
+        "Cile",
+        "Serie A winner",
+        "Played with Buffon",
+        "Argentine League"
+      ]
+    },
+    {
+      "name": "Luis Jiménez",
+      "attributes": [
+        "Inter",
+        "Lazio",
+        "Sud America",
+        "Cile",
+        "Serie A winner",
+        "Managed by Mourinho",
+        "Played with Ibrahimovic",
+        "Saudi League"
+      ]
+    },
+    {
+      "name": "Mauricio Pinilla",
+      "attributes": [
+        "Inter",
+        "Sporting Lisbona",
+        "Sud America",
+        "Cile",
+        "Copa America winner",
+        "Portugal League",
+        "Greek or Cypriot League",
+        "Scottish League",
+        "Brazil League"
+      ]
+    },
+    {
+      "name": "Matías Fernández",
+      "attributes": [
+        "Milan",
+        "Sporting Lisbona",
+        "Sud America",
+        "Cile",
+        "Copa America winner",
+        "Portugal League"
+      ]
+    },
+    {
+      "name": "Eduardo Vargas",
+      "attributes": [
+        "Napoli",
+        "Sud America",
+        "Cile",
+        "Copa America winner",
+        "Managed by Benitez",
+        "German League",
+        "Brazil League"
+      ]
+    }
+  ]
+}
