@@ -31,6 +31,7 @@ RSS_FEEDS = [
 
     # Inghilterra
     "https://www.skysports.com/rss/transfer-centre",
+    "https://www.skysports.com/rss/12691",   
 
     # Francia
     "https://www.footmercato.net/rss.xml",
