@@ -25,10 +25,46 @@ import requests
 # --- Configurazione ---
 
 RSS_FEEDS = [
+    # Italia
     "https://www.calciomercato.com/rss",
+    "https://feeds.footballco.com/calcio/rss.xml",
+
+    # Inghilterra
+    "https://www.skysports.com/rss/12691",
+    "https://www.skysports.com/rss/transfer-centre",
+    "https://feeds.bbci.co.uk/sport/football/rss.xml",
+
+    # Francia
     "https://www.footmercato.net/rss.xml",
-    "https://www.skysports.com/rss/12691",  # Sky Sports football news
+    "https://dwh.lequipe.fr/api/edito/rss?path=/Football/Transferts-football/",
+    "https://www.maxifoot.fr/rss-football.php",
+
+    # Spagna
+    "https://e00-marca.uecdn.es/rss/futbol/mercado-fichajes.xml",
+    "https://www.mundodeportivo.com/feed/rss/es/futbol",
+    "https://feeds.as.com/mrss-s/pages/as/site/as.com/section/futbol/subsection/portada",
+
+    # Portogallo
+    "https://www.record.pt/rss/rss.asp",
+    "https://www.ojogo.pt/rss/Noticias.rss",
+
+    # Turchia (feed generici del sito, contengono anche sport)
+    "https://www.sabah.com.tr/rss/anasayfa.xml",
+
+    # Argentina
+    "https://www.tycsports.com/boca-juniors.html/rss.xml",
+    "https://en.as.com/news/boca-juniors/rss.xml",
+
+    # Olanda (fonte inglese specializzata sul calcio olandese)
+    "https://www.dutchfootball.com/feed",
 ]
+
+# NOTA IMPORTANTE:
+# Non tutti questi URL sono stati verificati direttamente (alcuni siti bloccano
+# il test automatico). Lo script prosegue comunque anche se un feed fallisce
+# (vedi il blocco try/except in main()). Controlla i log della prima esecuzione
+# su GitHub Actions per vedere quali feed funzionano davvero, e togli/sostituisci
+# quelli che danno costantemente errore.
 
 SEEN_FILE = "seen.json"
 MAX_SEEN_STORED = 500  # evita che il file cresca all'infinito
@@ -50,11 +86,16 @@ TRANSFER_KEYWORDS = [
 TEAMS_OF_INTEREST = [
     "arsenal", "manchester city", "man city", "liverpool", "chelsea",
     "manchester united", "man utd", "man united", "tottenham", "spurs",
-    "monaco", "marseille", "marsiglia", "psg", "paris saint-germain",
+    "monaco", "marseille", "marsiglia", "olympique marsiglia", "psg",
+    "paris saint-germain", "paris sg",
     "real madrid", "barcelona", "barca", "atletico madrid", "atletico de madrid",
-    "juventus", "juve", "inter", "milan", "ac milan", "lazio", "roma",
-    "napoli", "sporting", "benfica", "porto", "galatasaray",
-    "boca juniors", "river plate", "psv", "ajax",
+    "atletico madryt", "juventus", "juve", "inter", "milan", "ac milan",
+    "lazio", "roma", "as roma", "napoli",
+    "sporting", "sporting lisbona", "sporting cp", "sporting lisboa",
+    "benfica", "porto", "fc porto",
+    "galatasaray", "gs ", "cimbom",
+    "boca juniors", "boca", "river plate", "river",
+    "psv", "psv eindhoven", "ajax",
 ]
 
 
