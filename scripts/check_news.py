@@ -36,13 +36,31 @@ MAX_SEEN_STORED = 500  # evita che il file cresca all'infinito
 TELEGRAM_TOKEN = os.environ.get("TELEGRAM_TOKEN")
 TELEGRAM_CHAT_ID = os.environ.get("TELEGRAM_CHAT_ID")
 
-# Parole chiave che alzano la probabilita' che sia un trasferimento
-# (non e' un filtro rigido, serve solo a marcare il messaggio come piu' o meno rilevante)
+# Parole chiave specifiche di trasferimenti GIOCATORI (escluse parole generiche
+# come "signs"/"agreement" che intercettano anche notizie su allenatori/staff)
 TRANSFER_KEYWORDS = [
-    "here we go", "signs", "agreement", "transfer", "medical",
-    "official", "ufficiale", "firma", "trasferimento", "sign for",
-    "joins", "done deal", "medical completed",
+    "here we go", "done deal", "medical completed", "signs for",
+    "joins", "official transfer", "ufficiale", "firma con", "trasferimento",
+    "here we go confirmed",
 ]
+
+# Squadre che ti interessano davvero (dalla tua lista chiusa).
+# Una notizia viene mandata SOLO se nel titolo compare almeno una di queste,
+# cosi' scartiamo automaticamente notizie su squadre/allenatori che non ti servono.
+TEAMS_OF_INTEREST = [
+    "arsenal", "manchester city", "man city", "liverpool", "chelsea",
+    "manchester united", "man utd", "man united", "tottenham", "spurs",
+    "monaco", "marseille", "marsiglia", "psg", "paris saint-germain",
+    "real madrid", "barcelona", "barca", "atletico madrid", "atletico de madrid",
+    "juventus", "juve", "inter", "milan", "ac milan", "lazio", "roma",
+    "napoli", "sporting", "benfica", "porto", "galatasaray",
+    "boca juniors", "river plate", "psv", "ajax",
+]
+
+
+def mentions_team_of_interest(title):
+    t = title.lower()
+    return any(team in t for team in TEAMS_OF_INTEREST)
 
 
 def load_seen():
@@ -104,6 +122,15 @@ def main():
             title = entry.get("title", "(senza titolo)")
             link = entry.get("link", "")
 
+            # Segna comunque come "vista" anche se la scartiamo, altrimenti
+            # la ricontrolleremmo (e scarteremmo) ad ogni esecuzione inutilmente
+            seen.add(uid)
+
+            # Filtro principale: se il titolo non menziona nessuna delle tue
+            # squadre di interesse, scartiamo la notizia senza notificarla
+            if not mentions_team_of_interest(title):
+                continue
+
             new_items.append({
                 "uid": uid,
                 "title": title,
@@ -111,7 +138,6 @@ def main():
                 "source": feed.feed.get("title", feed_url),
                 "is_transfer": is_probably_transfer(title),
             })
-            seen.add(uid)
 
     if not new_items:
         print("Nessuna notizia nuova trovata.")
