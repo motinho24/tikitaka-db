@@ -30,9 +30,7 @@ RSS_FEEDS = [
     "https://feeds.footballco.com/calcio/rss.xml",
 
     # Inghilterra
-    "https://www.skysports.com/rss/12691",
     "https://www.skysports.com/rss/transfer-centre",
-    "https://feeds.bbci.co.uk/sport/football/rss.xml",
 
     # Francia
     "https://www.footmercato.net/rss.xml",
@@ -96,6 +94,8 @@ EXCLUDE_KEYWORDS = [
     # Mondiali/nazionali/politica/cultura (fuori scope, il progetto e' su club)
     "world cup", "mondiali", "mondial", "copa mundial", "trump", "infantino",
     "safety", "stabbing", "crush", "mural", "flags",
+    # Segnali indiretti frequenti nelle notizie di calcio femminile
+    "wsl club", "women's super league", "fa wsl", "barclays wsl",
 ]
 
 # Squadre che ti interessano davvero (dalla tua lista chiusa).
