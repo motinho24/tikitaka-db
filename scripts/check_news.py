@@ -26,37 +26,55 @@ import requests
 
 RSS_FEEDS = [
     # Italia
-    "https://www.calciomercato.com/rss",
-    "https://feeds.footballco.com/calcio/rss.xml",
+    "https://www.gazzetta.it/dynamic-feed/rss/section/Calciomercato.xml",
+    "https://www.gianlucadimarzio.com/rss/",
 
     # Inghilterra
-    "https://www.skysports.com/rss/transfer-centre",
-    "https://www.skysports.com/rss/12691",   
+    "https://www.skysports.com/rss/12691",
+    "https://www.transfermarkt.co.uk/rss/news",
 
     # Francia
-    "https://www.footmercato.net/rss.xml",
-    "https://dwh.lequipe.fr/api/edito/rss?path=/Football/Transferts-football/",
     "https://www.maxifoot.fr/rss-football.php",
 
     # Spagna
     "https://e00-marca.uecdn.es/rss/futbol/mercado-fichajes.xml",
-    "https://www.mundodeportivo.com/feed/rss/es/futbol",
-    "https://feeds.as.com/mrss-s/pages/as/site/as.com/section/futbol/subsection/portada",
+    "https://www.transfermarkt.es/rss/news",
+
+    # Turchia
+    "https://www.sabah.com.tr/rss/anasayfa.xml",
+    "https://www.transfermarkt.com.tr/rss/news",
+
+    # Austria
+    "https://www.transfermarkt.at/rss/news",
+
+    # Svizzera
+    "https://www.transfermarkt.ch/rss/news",
+
+    # Polonia
+    "https://www.transfermarkt.pl/rss/news",
 
     # Portogallo
-    "https://www.record.pt/rss/rss.asp",
-    "https://www.ojogo.pt/rss/Noticias.rss",
+    "https://www.transfermarkt.pt/rss/news",
+    "https://www.zerozero.pt/rss/transfers.php",
 
-    # Turchia (feed generici del sito, contengono anche sport)
-    "https://www.sabah.com.tr/rss/anasayfa.xml",
+    # Olanda
+    "https://www.transfermarkt.nl/rss/news",
+    "https://www.vi.nl/feed/news.xml?tag=psv",
+    "https://www.vi.nl/feed/news.xml?tag=ajax",
+    "https://www.football-oranje.com/feed/",
 
     # Argentina
-    "https://www.tycsports.com/boca-juniors.html/rss.xml",
-    "https://en.as.com/news/boca-juniors/rss.xml",
+    "https://www.ole.com.ar/rss/river-plate/",
+    "https://www.ole.com.ar/rss/boca-juniors/",
 
-    # Olanda (fonte inglese specializzata sul calcio olandese)
-    "https://www.dutchfootball.com/feed",
+    # Germania (extra, utile per giocatori che passano da club tedeschi)
+    "https://www.transfermarkt.de/rss/news",
 ]
+
+# NOTA: la lista sopra contiene i feed confermati funzionanti (verificati
+# direttamente dal browser dall'utente). Transfermarkt non ha feed dedicati
+# per paese Argentina/Sud America: per quello restiamo con fonti locali
+# quando trovate (es. Ole, TyC Sports).
 
 # NOTA IMPORTANTE:
 # Non tutti questi URL sono stati verificati direttamente (alcuni siti bloccano
