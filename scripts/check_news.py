@@ -122,15 +122,14 @@ def main():
             title = entry.get("title", "(senza titolo)")
             link = entry.get("link", "")
 
-            # Segna comunque come "vista" anche se la scartiamo, altrimenti
-            # la ricontrolleremmo (e scarteremmo) ad ogni esecuzione inutilmente
-            seen.add(uid)
-
             # Filtro principale: se il titolo non menziona nessuna delle tue
-            # squadre di interesse, scartiamo la notizia senza notificarla
+            # squadre di interesse, la notizia non ci serve. NON la segniamo
+            # come "vista" cosi', se in futuro allarghiamo il filtro, potra'
+            # comunque essere ripresa in considerazione.
             if not mentions_team_of_interest(title):
                 continue
 
+            seen.add(uid)
             new_items.append({
                 "uid": uid,
                 "title": title,
