@@ -171,16 +171,25 @@ def main():
     seen = load_seen()
     new_items = []
 
+    total_entries = 0
+    scartate_gia_viste = 0
+    scartate_no_team = 0
+    scartate_excluded = 0
+    scartate_no_transfer = 0
+
     for feed_url in RSS_FEEDS:
         try:
             feed = feedparser.parse(feed_url)
+            print(f"Feed OK: {feed_url} -> {len(feed.entries)} elementi")
         except Exception as e:
             print(f"Errore leggendo il feed {feed_url}: {e}")
             continue
 
         for entry in feed.entries:
+            total_entries += 1
             uid = normalize_id(entry)
             if not uid or uid in seen:
+                scartate_gia_viste += 1
                 continue
 
             title = entry.get("title", "(senza titolo)")
@@ -191,10 +200,13 @@ def main():
             # 2. Non deve contenere parole escluse (calcio femminile, allenatori, mondiali...)
             # 3. Deve sembrare un trasferimento vero (contenere una parola chiave di mercato)
             if not mentions_team_of_interest(title):
+                scartate_no_team += 1
                 continue
             if is_excluded(title):
+                scartate_excluded += 1
                 continue
             if not is_probably_transfer(title):
+                scartate_no_transfer += 1
                 continue
 
             seen.add(uid)
@@ -205,6 +217,15 @@ def main():
                 "source": feed.feed.get("title", feed_url),
                 "is_transfer": True,
             })
+
+    print("--- Riepilogo diagnostico ---")
+    print(f"Notizie totali lette dai feed: {total_entries}")
+    print(f"Scartate perche' gia' viste in precedenza: {scartate_gia_viste}")
+    print(f"Scartate: nessuna squadra di interesse nel titolo: {scartate_no_team}")
+    print(f"Scartate: contenevano parola esclusa (donne/allenatori/mondiali): {scartate_excluded}")
+    print(f"Scartate: nessuna parola di trasferimento riconosciuta: {scartate_no_transfer}")
+    print(f"Notizie che hanno superato tutti i filtri: {len(new_items)}")
+    print("-----------------------------")
 
     if not new_items:
         print("Nessuna notizia nuova trovata.")
