@@ -72,12 +72,30 @@ MAX_SEEN_STORED = 500  # evita che il file cresca all'infinito
 TELEGRAM_TOKEN = os.environ.get("TELEGRAM_TOKEN")
 TELEGRAM_CHAT_ID = os.environ.get("TELEGRAM_CHAT_ID")
 
-# Parole chiave specifiche di trasferimenti GIOCATORI (escluse parole generiche
-# come "signs"/"agreement" che intercettano anche notizie su allenatori/staff)
+# Parole chiave che indicano un TRASFERIMENTO GIOCATORE in corso (calciomercato vero)
 TRANSFER_KEYWORDS = [
     "here we go", "done deal", "medical completed", "signs for",
-    "joins", "official transfer", "ufficiale", "firma con", "trasferimento",
-    "here we go confirmed",
+    "signs on", "sign on", "joins", "official transfer", "closing in on",
+    "set to sign", "agrees to join", "ufficiale", "firma con", "trasferimento",
+    "sign for", "loan move", "in advanced talks", "here we go confirmed",
+    "completes move", "transfer news", "target", "eyeing",
+    "interested in signing", "sign ", "on free", "free transfer",
+    "plait a", "plaît à", "interesse", "interesado en", "ilgileniyor",
+]
+
+# Parole/frasi che escludono SEMPRE una notizia, anche se contiene una squadra
+# di interesse. Coprono calcio femminile, allenatori/manager, mondiali, e
+# argomenti non sportivi (politica, cultura, sicurezza).
+EXCLUDE_KEYWORDS = [
+    # Calcio femminile
+    "women", "female", "lioness", "lionesses", "wsl", "nwsl", "femminile",
+    "feminin", "femenino", "damen",
+    # Allenatori / staff tecnico (non sono trasferimenti di giocatori)
+    "manager", "head coach", "named coach", "new coach", "allenatore",
+    "entraineur", "tecnico", "starts work", "appointed as", "boss named",
+    # Mondiali/nazionali/politica/cultura (fuori scope, il progetto e' su club)
+    "world cup", "mondiali", "mondial", "copa mundial", "trump", "infantino",
+    "safety", "stabbing", "crush", "mural", "flags",
 ]
 
 # Squadre che ti interessano davvero (dalla tua lista chiusa).
@@ -102,6 +120,11 @@ TEAMS_OF_INTEREST = [
 def mentions_team_of_interest(title):
     t = title.lower()
     return any(team in t for team in TEAMS_OF_INTEREST)
+
+
+def is_excluded(title):
+    t = title.lower()
+    return any(k in t for k in EXCLUDE_KEYWORDS)
 
 
 def load_seen():
@@ -163,11 +186,15 @@ def main():
             title = entry.get("title", "(senza titolo)")
             link = entry.get("link", "")
 
-            # Filtro principale: se il titolo non menziona nessuna delle tue
-            # squadre di interesse, la notizia non ci serve. NON la segniamo
-            # come "vista" cosi', se in futuro allarghiamo il filtro, potra'
-            # comunque essere ripresa in considerazione.
+            # Filtro combinato:
+            # 1. Deve menzionare una delle tue squadre
+            # 2. Non deve contenere parole escluse (calcio femminile, allenatori, mondiali...)
+            # 3. Deve sembrare un trasferimento vero (contenere una parola chiave di mercato)
             if not mentions_team_of_interest(title):
+                continue
+            if is_excluded(title):
+                continue
+            if not is_probably_transfer(title):
                 continue
 
             seen.add(uid)
@@ -176,21 +203,16 @@ def main():
                 "title": title,
                 "link": link,
                 "source": feed.feed.get("title", feed_url),
-                "is_transfer": is_probably_transfer(title),
+                "is_transfer": True,
             })
 
     if not new_items:
         print("Nessuna notizia nuova trovata.")
         return
 
-    # Ordina mettendo prima le notizie che sembrano trasferimenti
-    new_items.sort(key=lambda x: not x["is_transfer"])
-
     for item in new_items[:15]:  # limite di sicurezza per non floodare Telegram
-        tag = "\u26bd TRASFERIMENTO?" if item["is_transfer"] else "\U0001F4F0 News"
         message = (
-            f"{tag}\n"
-            f"<b>{item['title']}</b>\n"
+            f"\u26bd <b>{item['title']}</b>\n"
             f"Fonte: {item['source']}\n"
             f"{item['link']}"
         )
